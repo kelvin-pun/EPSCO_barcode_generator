@@ -21,7 +21,7 @@ async def gen_barcode(code: str):
     rv = BytesIO()
     code128 = barcode.get_barcode_class('code128')
     print(code+str(check_digit(code)))
-    code128(code + str(check_digit(code)), writer=ImageWriter()).write(rv)
+    #code128(code + str(check_digit(code)), writer=ImageWriter()).write(rv)
     rv.seek(0)
     return StreamingResponse(rv, headers=headers,media_type="image/png")
 
