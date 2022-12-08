@@ -1,6 +1,6 @@
 # EPSCO Barcode Generator
 
-##Calculate the check digit and generate barcode for PPS
+## Calculate the check digit and generate barcode for PPS
 
 >Barcode symbology of Code 128 Set B is recommended. Code 128 is very high density alphanumeric barcode,though EPSCO barcode template uses numeric only. The X-dimension (the dimension of the narrowest element of barcode symbol) of 7.5 mils is recommended. 7.5 mils equal 0.0075 inch. Additional information about Code 128 is available e.g. at www.idautomation.com or www.barcodingfonts.com
 
