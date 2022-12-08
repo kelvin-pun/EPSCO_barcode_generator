@@ -5,8 +5,8 @@ Calculate the check digit and generate barcode for PPS
 
 
 **Example: 9999956002021312**\
-A. 9999    Fixed Prefix assigned by EPSCO         - 4 digits\
-B. 956     Merchant Code assigned by EPSCO        - 3 digits\
-C. 00      Bill Type assigned by merchant         - 2 digits\
-D. 202131  Bill Account No. Assigned by mechant   - 6 digits\
-E. 2       Check digit base on above barcode data - 1 digit\
+| A | 9999   | Fixed Prefix assigned by EPSCO         | 4 digits | 
+| B | 956    | Merchant Code assigned by EPSCO        | 3 digits |
+| C | 00     | Bill Type assigned by merchant         | 2 digits |
+| D | 202131 | Bill Account No. Assigned by mechant   | 6 digits |
+| E | 2      | Check digit base on above barcode data | 1 digit  |
