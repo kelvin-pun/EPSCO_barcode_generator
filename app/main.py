@@ -10,7 +10,8 @@ def sum_of_digits(digit :int) -> int:
     return 0 if digit == 0 else int(digit % 10) + sum_of_digits(int(digit / 10))
 def check_digit(code :str) -> int:
     weights = [1,2,1,2,1,2,1,2,1,2,1,2,1,2,1]
-    return 10 - (sum(list(map(lambda x,y: sum_of_digits(int(x) * y), code, weights))) % 10)
+    total_sum = sum(list(map(lambda x,y: sum_of_digits(int(x) * y), code, weights))) % 10
+    return total_sum if total_sum == 0 else 10 - total_sum
 
 app = FastAPI()
 
